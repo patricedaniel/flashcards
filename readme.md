@@ -8,7 +8,7 @@ This is a simple flashcard website built with HTML, CSS, and JavaScript. The web
 
 ## Running the Website Locally
 
-1. Navigate to the directory of your website files in the terminal/command prompt.
+1. Navigate to the directory of your website (flashcards/www) in the terminal/command prompt.
 
 2. Start the local server with the following command:
 

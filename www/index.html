@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flashcard Website</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+</head>
+<body>
+    <div class="card" id="flashcard">
+        <div class="front"></div>
+        <div class="back"></div>
+    </div>
+    <div class="buttons">
+        <button id="nextButton">WEITER</button><br />
+        <input type="number" id="lineNumber" min="1">
+        <button id="goToLine">Gehe zu Nummer</button><br />
+        <button id="showCSV">Liste anzeigen</button><br />
+        <button id="info">Info</button>
+    </div>
+
+    <div id="popup" style="display: none; position: fixed; width: 100%; height: 100%; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(0,0,0,0.5); z-index: 2; cursor: pointer;">
+        <div class="buttons">
+            <p style="font-size: 25px; line-height: 30px; font-family: Arial, Helvetica, sans-serif;">Die Seite ist entstanden um den Wortschatz zum Buch «Vitamin Korean 1 (A1) / 비타민 한국어. 1» zu lernen, 
+            viel Spass dabei!<br><br>
+            Anregungen an Patrice Büttiker, patrice.buettiker@gmail.com</p>
+            <button id="closePopup">Close</button>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

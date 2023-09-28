@@ -4,6 +4,10 @@ window.onload = function() {
     var lineNumberInput = document.getElementById('lineNumber');
     var goToLineButton = document.getElementById('goToLine');
     var showCSVButton = document.getElementById('showCSV');
+    var infoButton = document.getElementById('info');
+    var infoButton = document.getElementById('info');
+    var popup = document.getElementById('popup');
+    var closePopupButton = document.getElementById('closePopup');
     var data;
 
 
@@ -51,6 +55,16 @@ window.onload = function() {
         newWindow.document.close();
     });
 
+    infoButton.addEventListener('click', function() {
+        popup.style.display = 'block';
+    });
+    
+    closePopupButton.addEventListener('click', function() {
+        popup.style.display = 'none';
+    });
+    popup.addEventListener('click', function() {
+        popup.style.display = 'none';
+    });
 
     // display the content in the flashcard // 3 columns on the front, 6 columns on the backside
     function showFlashcard(index) {
