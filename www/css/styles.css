@@ -47,7 +47,7 @@ body {
     transform: rotateY(180deg);
 }
 .card:hover {
-    width: 77vw;
+    width: 87vw;
 }
 .small-text {
     font-size: 2vh;
