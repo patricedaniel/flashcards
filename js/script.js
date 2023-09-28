@@ -36,7 +36,7 @@ window.onload = function() {
     });
 
     showCSVButton.addEventListener('click', function() {
-        var table = '<style>table {border-collapse: collapse;} table, th, td {border: 1px solid black; padding: 10px;} tr td:nth-child(n+2):nth-child(-n+5) {background-color: lightblue;} tr td:nth-child(n+6):nth-child(-n+10) {background-color: lightsalmon;}</style><table>';
+        var table = '<style>table {border-collapse: collapse;} table, th, td {border: 1px solid black; padding: 10px;} tr td:nth-child(n+2):nth-child(-n+4) {background-color: lightblue;} tr td:nth-child(n+5) {background-color: lightsalmon;}</style><table>';
         data.forEach(function(row, index) {
             table += '<tr><td>' + (index + 1) + '</td>';
             row.forEach(function(cell) {
