@@ -1,15 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="de-CH">
 <head>
-    <title>Flashcard Website</title>
+    <title>Korean Flashcards for 비타민 한국어</title>
     <meta charset="UTF-8">
+    <meta name="description" content="Digitale Karteikarten zum Wortschatz vom Buch «Vitamin Korean 1 (A1) / 비타민 한국어. 1»">
+    <meta name="keywords" content="Karteikarten, Flashcards, Quizlet, Korean, 비타민 한국어, Topik, Vitamin Korean, Wortschatz, lernen">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
 </head>
 <body>
     <div class="card" id="flashcard">
         <div class="front"></div>
-        <div class="back"></div>
+        <div class="back" lang="ko"></div>
     </div>
     <div class="buttons">
         <button id="nextButton">WEITER</button><br />
@@ -21,8 +23,10 @@
 
     <div id="popup" style="display: none; position: fixed; width: 100%; height: 100%; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(0,0,0,0.5); z-index: 2; cursor: pointer;">
         <div class="buttons">
-            <p style="font-size: 25px; line-height: 30px; font-family: Arial, Helvetica, sans-serif;">Die Seite ist entstanden um den Wortschatz zum Buch «Vitamin Korean 1 (A1) / 비타민 한국어. 1» zu lernen, 
+            <p style="width: 75%; font-size: 25px; line-height: 30px; font-family: Arial, Helvetica, sans-serif;">Die Seite ist entstanden um den Wortschatz zum Buch «Vitamin Korean 1 (A1) / 비타민 한국어. 1» zu lernen, 
             viel Spass dabei!<br><br>
+            Die Webseite und die Übersetzungen wurden teils maschinell erstellt, unter anderem durch Bing-Chat (ChatGPT-4 und Bing-Suchergebnisse), sowie DeepL.<br>
+            KEINE Gewähr auf Richtigkeit und Vollständigkeit.<br><br>
             Anregungen an Patrice Büttiker, patrice.buettiker@gmail.com</p>
             <button id="closePopup">Close</button>
         </div>

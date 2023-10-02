@@ -1,22 +1,210 @@
-English Word;German Translation;Sentence Translation;Korean Translation (infinitive);Formal Version;Informal Version (아/어/여요 form);Casual Version;Past (Formal, Informal, Casual);Example Sentence;
-singer;Sänger;Der Sänger singt ein Lied.;가수;가수입니다;가수예요;가수야;가수였습니다, 가수였어요, 가수였어;그녀는 유명한 가수예요.;
-shoes;Schuhe;Ich kaufe neue Schuhe.;신발;신발입니다;신발이에요;신발이야;신발이었습니다, 신발이었어요, 신발이었어;나는 새로운 신발을 샀어요.;
-tree;Baum;Der Baum ist groß.;나무;나무입니다;나무예요;나무야;나무였습니다, 나무였어요, 나무였어;나무 아래에서 책을 읽었어요.;
-age;Alter;Wie alt bist du?;나이;나이입니다;나이에요;나이야;나이였습니다, 나이였어요, 나이였어;그녀는 그의 나이를 물었어요.;
-who;wer;Wer bist du?;누구;누구입니다;누구예요;누구야;누구였습니다, 누구였어요, 누구였어;누구를 만났어요?;
-radio;Rundfunk;Ich höre das Radio.;라디오;라디오입니다;라디오예요;라디오야;라디오였습니다, 라디오였어요, 라디오였어;나는 라디오를 들었어요.;
-hair;Haare;Sie hat lange Haare.;머리카락;머리카락입니다;머리카락이에요;머리카락이야;머리카락이었습니다, 머리카락이었어요, 머리카락이었어;그녀는 머리카락을 자르려고 했어요.;
-to go;gehen;Ich gehe zur Schule.;가다;갑니다;가요;가;갔습니다, 갔어요, 갔어;나는 학교에 갔어요.;
-to come;kommen;Kommst du zur Party?;오다;옵니다;와요;와;왔습니다, 왔어요, 왔어;그녀는 파티에 왔어요.;
-to sleep;schlafen;Ich schlafe gut.;자다;잡니다;자요;자;잤습니다, 잤어요, 잤어;나는 잘 잤어요.;
-to see;sehen;Ich sehe einen Hund.;보다;봅니다;봐요;봐;봤습니다, 봤어요, 봤어;나는 개를 봤어요.;
-to eat;essen;Ich esse einen Apfel.;먹다;먹습니다;먹어요;먹어;먹었습니다, 먹었어요, 먹었어;나는 사과를 먹었어요.;
-to read;lesen;Ich lese ein Buch.;읽다;읽습니다;읽어요;읽어;읽었습니다, 읽었어요, 읽었어;나는 책을 읽었어요.;
-to study;studieren;Ich studiere Mathematik.;공부하다;공부합니다;공부해요;공부해;공부했습니다, 공부했어요, 공부했어;나는 수학을 공부했어요.;
-to be good;gut sein;Du bist gut.;좋다;좋습니다;좋아요;좋아;좋았습니다, 좋았어요, 좋았어;그는 좋은 사람이에요.;
-big / to be big;groß / groß sein;Das Haus ist groß.;크다;큽니다;커요;커;컸습니다, 컸어요, 컸어;그 집은 커요.;
-small / to be small;klein / klein sein;Das Haus ist klein.;작다;작습니다;작아요;작아;작았습니다, 작았어요, 작았어;그 집은 작아요.;
-many;viele;Es gibt viele Bücher.;많다;많습니다;많아요;많아;많았습니다, 많았어요, 많았어;책이 많아요.;
-few;wenige;Es gibt wenige Bücher.;적다;적습니다;적어요;적어;적었습니다, 적었어요, 적었어;책이 적어요.;
-interesting / to be interesting;interessant / interessant sein;Das Buch ist interessant.;재미있다;재미있습니다;재미있어요;재미있어;재미있었습니다, 재미있었어요, 재미있었어;그 책은 재미있어요.;
-boring / to be boring;langweilig / langweilig sein;Das Buch ist langweilig.;지루하다;지루합니다;지루해요;지루해;지루했습니다, 지루했어요, 지루했어;그 책은 지루해요.;
+English Word;German Translation;Sentence Translation;Korean Translation (infinitive);Formal Version;Informal Version (아/어/여요 form);Casual Version;"Past (Formal; Informal; Casual)";Example Sentence
+singer;Sänger;Der Sänger singt ein Lied.;가수;가수입니다;가수예요;가수야;"가수였습니다; 가수였어요; 가수였어";그녀는 유명한 가수예요.
+shoes;Schuhe;Ich kaufe neue Schuhe.;신발;신발입니다;신발이에요;신발이야;"신발이었습니다; 신발이었어요; 신발이었어";나는 새로운 신발을 샀어요.
+tree;Baum;Der Baum ist grün.;나무;나무입니다;나무예요;나무야;"나무였습니다; 나무였어요; 나무였어";나무가 그린이에요.
+age;Alter;Wie alt bist du?;나이;나이입니다;나이에요;나이야;"나이였습니다; 나이였어요; 나이였어";나이가 어떻게 되세요? (몇 살이야?)
+who;wer;Wer ist am grössten?;누구;누구입니다;누구예요;누구야;"누구였습니다; 누구였어요; 누구였어";누가 가장 큰가요?
+radio;Radio;Ich höre Radio.;라디오;라디오입니다;라디오예요;라디오야;"라디오였습니다; 라디오였어요; 라디오였어";라디오를 들어요.
+hair;Haare;Sie hat lange Haare.;머리카락;머리카락입니다;머리카락이에요;머리카락이야;"머리카락이었습니다; 머리카락이었어요; 머리카락이었어";그녀는 긴 머리어요.
+to go;gehen;Ich gehe zur Schule.;가다;갑니다;가요;가;"갔습니다; 갔어요; 갔어";나는 학교에 갔어요.
+to come;kommen;Kommst du zur Party?;오다;옵니다;와요;와;"왔습니다; 왔어요; 왔어";파티에 와요?
+to sleep;schlafen;Ich schlief gut.;자다;잡니다;자요;자;"잤습니다; 잤어요; 잤어";나는 잘 잤어요.
+to see;sehen;Ich sehe einen Hund.;보다;봅니다;봐요;봐;"봤습니다; 봤어요; 봤어";나는 개를 봤어요.
+to eat;essen;Ich esse einen Apfel.;먹다;먹습니다;먹어요;먹어;"먹었습니다; 먹었어요; 먹었어";나는 사과를 먹었어요.
+to read;lesen;Ich lese ein Buch.;읽다;읽습니다;읽어요;읽어;"읽었습니다; 읽었어요; 읽었어";나는 책을 읽었어요.
+to study;studieren;Ich studiere Mathematik.;공부하다;공부합니다;공부해요;공부해;"공부했습니다; 공부했어요; 공부했어";나는 수학을 공부했어요.
+to be good;gut sein;Du bist gut. (Ich mag dich.);좋다;좋습니다;좋아요;좋아;"좋았습니다; 좋았어요; 좋았어";당신 좋아요.
+big / to be big;groß / groß sein;Das Haus ist groß.;크다;큽니다;커요;커;"컸습니다; 컸어요; 컸어";그 집은 커요.
+small / to be small;klein / klein sein;Das Haus ist klein.;작다;작습니다;작아요;작아;"작았습니다; 작았어요; 작았어";그 집은 작아요.
+many;viele;Es gibt viele Bücher.;많다;많습니다;많아요;많아;"많았습니다; 많았어요; 많았어";책이 많아요.
+few;wenige;Es gibt wenige Bücher.;적다;적습니다;적어요;적어;"적었습니다; 적었어요; 적었어";책이 적어요.
+interesting / to be interesting;interessant / interessant sein;Das Buch ist interessant.;재미있다;재미있습니다;재미있어요;재미있어;"재미있었습니다; 재미있었어요; 재미있었어";그 책은 재미있어요.
+boring / to be boring;langweilig / langweilig sein;Das Buch ist langweilig.;지루하다;지루합니다;지루해요;지루해;"지루했습니다; 지루했어요; 지루했어";그 책은 지루해요.
+fox;Fuchs;Der Fuchs ist schlau.;여우;여우입니다;여우예요;여우야;"여우였다; 여우였어요";여우는 영리합니다.
+cook;kochen;Ich kochte das Essen.;요리하다;요리합니다;요리해요;요리해;요리했다: 요리했어요;나는 저녁을 요리했어.
+milk;Milch;Ich trinke jeden Morgen Milch.;우유;우유입니다;우유예요;우유야;우유였다: 우유였어요;나는 매일 아침에 우유를 마신다.
+news;Nachrichten;Ich schaue jeden Abend die Nachrichten.;뉴스;뉴스입니다;뉴스예요;뉴스야;뉴스였다: 뉴스였어요;나는 뉴스를 매일 저녁에 본다.
+tissue;Taschentuch;Bitte werfen Sie das Taschentuch weg.;휴지;휴지입니다;휴지예요;휴지야;휴지였다: 휴지였어요;휴지를 버려주세요. 
+scissors;Schere;Bitte schneiden Sie das Papier mit der Schere.;가위;가위입니다;가위예요;가위야;가위였다: 가위였어요;가위로 종이를 잘라주세요.
+doctor;Arzt;Er ist ein guter Arzt.;의사;의사입니다;의사예요;의사야;의사였다: 의사였어요;그는 좋은 의사입니다. 
+chair;Stuhl;Sie sitzt auf dem Stuhl.;의자;의자입니다;의자예요;의자야;의자였다: 의자였어요;그녀는 의자에 앉아 있어요.
+to talk;sprechen;Er spricht Koreanisch.;말하다;말합니다;말해요;말해;말했다: 말했어요;그는 한국어를 말한다.
+why;warum;Warum denkst du so?;왜;왜입니까;왜예요;왜야;왜였을까: 왜였을까요 (This is a question form);왜 그렇게 생각해?
+artist;Künstler;Sie ist eine großartige Künstlerin.;예술가;예술가입니다;예술가예요;예술가야;예술가였다: 예술가였어요;그녀는 훌륭한 예술가입니다. 
+apple;Apfel;Ich mag Äpfel;사과;사과입니다;사과예요;사과야;사과였다: 사과였어요;사과를 좋아해요.
+ear;Ohr;Mein Ohr tut weh.;귀;귀입니다;귀예요;귀야;귀였다: 귀였어요;귀가 아파요.
+clock;Uhr;Ich schaue auf die Uhr.;시계;시계입니다;시계예요;시계야;시계였다: 시계였어요;시계를 봐요.
+world;Welt;Ich reise um die Welt.;세계;세계입니다;세계예요;세계야;세계였다: 세계였어요;세계를 여행해요.
+pig;Schwein;Ich esse Schweinefleisch.;돼지;돼지입니다;돼지예요;돼지야;돼지였다: 돼지였어요;돼지고기를 먹어요.
+water;Wasser;Nur Wasser bitte.;물;물입니다;물이에요;물이야;물이었다: 물이었어요;물만 주세요.
+bread;Brot;Ich esse morgens Brot;빵;빵입니다;빵이에요;빵이야;빵이었다: 빵이었어요;나는 아침에 빵을 먹는다.
+mountain;Berg;Er ist auf den Berg gestiegen.;산;산입니다;산이에요;산이야;산이었다: 산이었어요;그는 산에 올라갔다. 
+eye;Auge;Der Schnee blendet meine Augen.;눈;눈입니다;눈이에요;눈이야;눈이었다: 눈이었어요;눈이 내 눈을 가려요.
+family;Familie;Ich bin mit meiner Familie verreist.;가족;가족입니다;가족이에요;가족이야;가족이었다: 가족이었어요;가족과 함께 여행을 갔다.
+daddy;Papa;Papa ist zur Arbeit gegangen.;아빠;아빠입니다;아빠예요;아빠야;아빠였다: 아빠였어요;아빠는 일하러 갔다.
+mommy;Mama;Mama kocht.;엄마;엄마입니다;엄마예요;엄마야;엄마였다: 엄마였어요;엄마가 요리해요.
+father;Vater;Vater liest die Zeitung.;아버지;아버지입니다;아버지예요;아버지야;아버지였다: 아버지였어요;아버지가 신문을 읽어요.
+mother;Mutter;어머니가 청소해요.;어머니;어머니입니다;어머니예요;어머니야;어머니였다: 어머니였어요;Mutter putzt.
+younger brother;jüngerer Bruder;Mein jüngerer Bruder macht seine Hausaufgaben.;남동생;남동생입니다;남동생이에요;남동생이야;남동생이었다: 남동생이었어요;남동생이 숙제를 해요.
+older sister;ältere Schwester;Meine ältere Schwester liest ein Buch.;언니;언니입니다;언니예요;언니야;언니였다: 언니였어요;언니가 책을 읽어요.
+older brother;älterer Bruder;Mein älterer Bruder spielt Fußball.;형;형입니다;형이에요;형이야;형이었다: 형이었어요;형이 축구를 해요.
+younger sister;jüngere Schwester;Meine jüngere Schwester spielt Klavier.;여동생;여동생입니다;여동생이에요;여동생이야;여동생이었다: 여동생이었어요;여동생이 피아노를 치워요.
+boyfriend;Freund;Mein Freund mag Filme.;남자친구;남자친구입니다;남자친구예요;남자친구야;남자친구였다: 남자친구였어요;남자친구가 영화를 좋아해요.
+girlfriend;Freundin;Meine Freundin mag Shopping.;여자친구;여자친구입니다;여자친구예요;여자친구야;여자친구였다: 여자친구였어요;여자친구가 쇼핑을 좋아해요.
+husband;Ehemann;Mein Ehemann kocht.;남편;남편입니다;남편이에요;남편이야;남편이었다: 남편이었어요;남편이 요리를 해요.
+wife;Ehefrau;Meine Ehefrau tanzt.;아내;아내입니다;아내예요;아내야;아내였다: 아내였어요;아내가 춤을 추워요.
+grandmother;Großmutter;Großmutter bäckt Brot.;할머니;할머니입니다;할머니예요;할머니야;할머니였다: 할머니였어요;할머니가 빵을 구워요.
+grandfather;Großvater;Großvater liest die Zeitung.;할아버지;할아버지입니다;할아버지예요;할아버지야;할아버지였다: 할아버지였어요;할아버지가 신문을 읽어요.
+ball;Ball;Ich trete den Ball.;공;공입니다;공이에요;공이야;공이었다: 공이었어요;공을 차요.
+room;Zimmer;Ich putze das Zimmer.;방;방입니다;방이에요;방이야;방이었다: 방이었어요;방을 청소해요.
+hospital;Krankenhaus;Ich gehe ins Krankenhaus.;병원;병원입니다;병원이에요;병원이야;병원이었다: 병원이었어요;병원에 가요.
+clothes;Kleidung;Ich ziehe Kleidung an.;옷;옷입니다;옷이에요;옷이야;옷이었다: 옷이었어요;옷을 입어요.
+kitchen;Küche;Ich koche in der Küche.;부엌;부엌입니다;부엌이에요;부엌이야;부엌이었다: 부엌이었어요;부엌에서 요리해요.
+house;Haus;Ich gehe nach Hause.;집;집입니다;집이에요;집이야;집이었다: 집이었어요;집에 가요.
+day;Tag;Das Wetter ist gut.;날;날입니다;날이에요;날이야;날이었다: 날이었어요;날이 좋아요.
+i am sorry;Es tut mir leid;;미안하다;미안합니다;미안해요;미안해;미안했다: 미안했어요;
+thank you;Danke;;감사하다;감사합니다;감사해요;감사해;감사했다: 감사했어요;
+nice to meet you;"Schön; dich kennenzulernen";;만나서 반갑다;만나서 반갑습니다;만나서 반가워요;만나서 반가워;만나서 반가웠다: 만나서 반가웠어요;
+student;Student;Ich bin ein Student.;학생;학생입니다;학생이에요;학생이야;학생이었다: 학생이었어요;저는 학생이에요.
+friend;Freund;Ich treffe einen Freund.;친구;친구입니다;친구예요;친구야;친구였다: 친구였어요;친구를 만나요.
+teacher;Lehrer;Ich lerne vom Lehrer.;선생님;선생님입니다;선생님이에요;선생님이야;선생님이었다: 선생님이었어요;선생님께 배워요.
+to excercise;trainieren;Ich mache Sport.;운동하다;운동합니다;운동해요;운동해;운동했다: 운동했어요;운동해요.
+desk;Schreibtisch;Ich lerne am Schreibtisch.;책상;책상입니다;책상이에요;책상이야;책상이었다: 책상이었어요;책상에서 공부해요.
+life;Leben;Ich genieße das tägliche Leben.;생활;생활입니다;생활이에요;생활이야;생활이었다: 생활이었어요;일상 생활을 즐겨요.
+to be like what;Wie ist es;Was ist passiert?;어떻게 되다;어떻게 됩니다;어떻게 돼요;어떻게 돼;어떻게 됐다: 어떻게 됐어요;어떻게 되었어요?
+very;sehr;Ich bin sehr glücklich.;매우;매우입니다;매우에요;매우야;매우였다: 매우였어요;매우 행복해요.
+university;Universität;Ich gehe zur Universität.;대학교;대학교입니다;대학교예요;대학교야;대학교였다: 대학교였어요;대학교에 다녀요.
+name;Name;Mein Name ist Hong Gil-dong.;이름;이름입니다;이름이에요;이름이야;이름이었다: 이름이었어요;제 이름은 홍길동이에요.
+to read;lesen;Ich lese ein Buch.;읽다;읽습니다;읽어요;읽어;읽었다: 읽었어요;책을 읽어요.
+book;Buch;Ich mag Bücher.;책;책입니다;책이에요;책이야;책이었다: 책이었어요;책을 좋아해요.
+phone number;Telefonnummer;Wie ist deine Telefonnummer;전화번호;전화번호입니다;전화번호예요;전화번호야;전화번호였다: 전화번호였어요;전화번호가 어떻게 되나요?
+office worker;Büroangestellter;Ich arbeite in einem Bürojob.;사무직;사무직입니다;사무직이에요;사무직이야;사무직이었다: 사무직이었어요;사무직에서 일해요.
+what;was;Was möchtest du tun?;무엇;무엇입니까;무엇이에요;무엇이야;무엇이었을까: 무엇이었을까요;무엇을 하고 싶어요?
+my;mein;Ich treffe meinen Kollegen.;나의;나의입니다;나의에요;나의야;나의였다: 나의였어요;나의 친구를 만나요.
+hometown;Heimatstadt;Ich gehe in meine Heimatstadt.;고향;고향입니다;고향이에요;고향이야;고향이었다: 고향이었어요;고향에 가요.
+woman;Frau;Die Frau ist Köchin;여자;여자입니다;여자예요;여자야;여자였다: 여자였어요;여자는 요리사입니다.
+man;Mann;Der Mann setzt sich.;남자;남자입니다;남자예요;남자야;남자였다: 남자였어요;남자가 앉습니다.
+we;wir;Wir sind die besten;우리;우리입니다;우리에요;우리야;우리였다: 우리였어요;우리는 최고입니다.
+nurse;Krankenschwester;Ich möchte Krankenschwester werden.;간호사;간호사입니다;간호사예요;간호사야;간호사였다: 간호사였어요;간호사가 되고 싶어요.
+police officer;Polizist;Der Polizist hilft mir.;경찰관;경찰관입니다;경찰관이에요;경찰관이야;경찰관이었다: 경찰관이었어요;경찰관이 도와줘요.
+businessman;Geschäftsmann;"Ich versuche; Geschäftsmann zu werden.";사업가;사업가입니다;사업가예요;사업가야;사업가였다: 사업가였어요;사업가가 되려고 해요.
+who;wer;Wen triffst du?;누구;누구입니까;누구예요;누구야;누구였을까: 누구였을까요;누구를 만나러 가요?
+this;dies;Dieses Buch ist schwer.;이;이입니다;이에요;이야;이었다: 이었어요;이 책은 무겁습니다.
+to like;mögen;Ich mag Musik.;좋아하다;좋아합니다;좋아해요;좋아해;좋아했다: 좋아했어요;저는 음악을 좋아해요.
+drama;Drama/Serie;Ich schaue die Serie.;드라마;드라마입니다;드라마예요;드라마야;드라마였다: 드라마였어요;드라마를 봐요.
+breakfast;Frühstück;Ich frühstücke.;아침식사;아침식사입니다;아침식사예요;아침식사야;아침식사였다: 아침식사였어요;아침식사를 먹어요.
+brunch;Brunch;Ich esse Brunch.;브런치;브런치입니다;브런치예요;브런치야;브런치였다: 브런치였어요;브런치를 먹어요.
+lunch;Mittagessen;Ich bereite das Mittagessen vor.;점심식사;점심식사입니다;점심식사예요;점심식사야;점심식사였다: 점심식사였어요;점심식사를 준비해요.
+dinner;Abendessen;Ich bereite das Abendessen vor.;저녁식사;저녁식사입니다;저녁식사예요;저녁식사야;저녁식사였다: 저녁식사였어요;저녁식사를 준비해요.
+government officer;Regierungsbeamter;"Ich versuche; Beamter zu werden.";공무원;공무원입니다;공무원이에요;공무원이야;집이었다: 집이었어요;공무원이 되려고 해요.
+small;klein;Es ist klein.;작다;작습니다;작아요;작아;날이었다: 날이었어요;그것은 작아요.
+big;groß;Es ist groß.;크다;큽니다;커요;커;미안했다: 미안했어요;그것은 커요.
+boring;langweilig;Es ist langweilig.;지루하다;지루합니다;지루해요;지루해;감사했다: 감사했어요;그것은 지루해요. (재미가 없습니다.)
+Sorry;Verzeihung;Entschuldigen Sie;죄송하다;죄송합니다;죄송하여;;;실례합니다
+to call;anrufen;Ich rufe an.;전화하다;전화합니다;전화해요;전화해;학생이었다: 학생이었어요;전화해요.
+very good;sehr gut;Das Wetter ist sehr gut.;매우 좋다;매우 좋습니다;매우 좋아요;매우 좋아;친구였다: 친구였어요;날씨가 매우 좋아요.
+Job;Arbeit;Mein Beruf ist Lehrer.;직업;직업입니다;직업이에요;직업이야;선생님이었다: 선생님이었어요;제 직업은 선생님이에요.
+hobby;Hobby;Mein Hobby ist Lesen.;취미;취미입니다;취미예요;취미야;운동했다: 운동했어요;제 취미는 독서예요.
+He;er;Er ist ein Freund.;그;그입니다;그예요;그야;책상이었다: 책상이었어요;그는 친구예요.
+She;sie;Sie ist eine Lehrerin.;그녀;그녀입니다;그녀예요;그녀야;생활이었다: 생활이었어요;그녀는 선생님이에요.
+was;war;Er war ein Student.;이었다;이었습니다;이었어요;이었어;어떻게 됐다: 어떻게 됐어요;그는 학생이었어요.
+time;Zeit;Die Zeit vergeht schnell.;시간;시간입니다;시간이에요;시간이야;매우였다: 매우였어요;시간이 빨리 가요.
+to get up;aufstehen;Ich stehe morgens auf.;일어나다;일어납니다;일어나요;일어나;대학교였다: 대학교였어요;아침에 일어나요.
+when;wann;Wann sollen wir uns treffen?;언제;언제입니까;언제예요;언제야;이름이었다: 이름이었어요;언제 만날까요?
+birthday;Geburtstag;Morgen ist mein Geburtstag.;생일;생일입니다;생일이에요;생일이야;읽었다: 읽었어요;내일이 제 생일이에요.
+morning;Morgen;Ich mache morgens Sport.;아침;아침입니다;아침이에요;아침이야;책이었다: 책이었어요;아침에 운동해요.
+noon;Mittag;Ich esse mittags zu Mittag.;정오;정오입니다;정오예요;정오야;전화번호였다: 전화번호였어요;정오에 점심을 먹어요.
+evening;Abend;Ich lese abends ein Buch.;저녁;저녁입니다;저녁이에요;저녁이야;사무직이었다: 사무직이었어요;저녁에 책을 읽어요.
+night;Nacht;Ich schlafe nachts.;밤;밤입니다;밤이에요;밤이야;밤이었다: 밤이었어요;밤에 잠을 자요.
+what;was;Was möchtest du tun?;무엇;무엇입니까;무엇이에요;무엇이야;무엇이었을까: 무엇이었을까요;무엇을 하고 싶어요?
+hours;Stunden;Die Zeit vergeht schnell.;시간;시간입니다;시간이에요;시간이야;시간이었다: 시간이었어요;시간이 빨리 가요.
+minutes;Minuten;Lass uns in 10 Minuten treffen.;분;분입니다;분이에요;분이야;분이었다: 분이었어요;10분 후에 만나요.
+movie;Film;Ich schaue einen Film.;영화;영화입니다;영화예요;영화야;영화였다: 영화였어요;영화를 봐요.
+to meet;treffen;Ich treffe einen Freund.;만나다;만나습니다;만나요;만나;만났다: 만났어요;친구를 만나요.
+to drink;trinken;Ich trinke Kaffee.;마시다;마십니다;마셔요;마셔;마셨다: 마셨어요;커피를 마셔요.
+rice;Reis;Ich esse Reis.;밥;밥입니다;밥이에요;밥이야;밥이었다: 밥이었어요;밥을 먹어요.
+Monday;Montag;Ich gehe am Montag zur Schule.;월요일;월요일입니다;월요일이에요;월요일이야;월요일이었다: 월요일이었어요;월요일에 학교에 가요.
+Tuesday;Dienstag;Ich mache am Dienstag Sport.;화요일;화요일입니다;화요일이에요;화요일이야;화요일이었다: 화요일이었어요;화요일에 운동해요.
+Wednesday;Mittwoch;Ich schaue am Mittwoch einen Film.;수요일;수요일입니다;수요일이에요;수요일이야;수요일이었다: 수요일이었어요;수요일에 영화를 봐요.
+Thursday;Donnerstag;Ich gehe am Donnerstag zur Bibliothek.;목요일;목요일입니다;목요일이에요;목요일이야;목요일이었다: 목요일이었어요;목요일에 도서관에 가요.
+Friday;Freitag;Ich treffe am Freitag einen Freund.;금요일;금요일입니다;금요일이에요;금요일이야;금요일이었다: 금요일이었어요;금요일에 친구를 만나요.
+Saturday;Samstag;Ich gehe samstags einkaufen.;토요일;토요일입니다;토요일이에요;토요일이야;토요일이었다: 토요일이었어요;토요일에 쇼핑을 해요.
+Sunday;Sonntag;Ich ruhe sonntags aus.;일요일;일요일입니다;일요일이에요;일요일이야;일요일이었다: 일요일이었어요;일요일에 쉬어요.
+yesterday;gestern;Ich habe gestern gelernt.;어제;어제였습니다;어제였어요;어제였어;어제였다: 어제였어요;어제 공부했어요.
+today;heute;Heute ist ein guter Tag.;오늘;오늘입니다;오늘이에요;오늘이야;오늘이었다: 오늘이었어요;오늘은 좋은 날이에요.
+tomorrow;morgen;Ich treffe morgen einen Freund.;내일;내일입니다;내일이에요;내일이야;내일이었다: 내일이었어요;내일 친구를 만나요.
+weekend;Wochenende;Ich ruhe am Wochenende aus.;주말;주말입니다;주말이에요;주말이야;주말이었다: 주말이었어요;주말에 쉬어요.
+last week;letzte Woche;Ich habe letzte Woche einen Film gesehen.;지난주;지난주였습니다;지난주였어요;지난주였어;지난주였다: 지난주였어요;지난주에 영화를 봤어요.
+this week;diese Woche;Ich lerne diese Woche.;이번 주;이번 주입니다;이번 주에요;이번 주야;이번 주였다: 이번 주였어요;이번 주에 공부해요.
+next week;nächste Woche;Ich reise nächste Woche.;다음 주;다음 주입니다;다음 주에요;다음 주야;다음 주였다: 다음 주였어요;다음 주에 여행을 가요.
+PM (after midday);nachmittags;Ich mache Sport am Nachmittag.;오후;오후입니다;오후에요;오후야;오후였다: 오후였어요;오후에 운동해요.
+AM (before midday);vormittags;Um 10 Uhr kam der Postbote.;오전;오전입니다;오전이에요;오전이야;오전이었다: 오전이었어요;오전 10시에 우체부가 왔습니다.
+class;Klasse;Ich besuche den Unterricht.;수업;수업입니다;수업이에요;수업이야;수업이었다: 수업이었어요;수업을 들어요.
+to finish;beenden;Ich beende die Hausaufgaben.;끝내다;끝냈습니다;끝내요;끝내;끝냈다: 끝냈어요;숙제를 끝내요.
+usually;normalerweise;Normalerweise lese ich ein Buch.;보통;보통입니다;보통이에요;보통이야;보통이었다: 보통이었어요;보통 책을 읽어요.
+again;wieder;Wir treffen uns wieder.;다시;다시입니다;다시에요;다시야;다시였다: 다시였어요;다시 만나요.
+to learn;lernen;Ich lerne etwas Neues.;배우다;배웠습니다;배워요;배워;배웠다: 배웠어요;새로운 것을 배워요.
+month;Monat;Es dauert einen Monat.;달;달입니다;달이에요;달이야;달이었다: 달이었어요;한 달이 걸립니다.
+year;Jahr;Lass uns in einem Jahr treffen.;년;년입니다;년이에요;년이야;년이었다: 년이었어요;1년 후에 만나요.
+homework;Hausaufgaben;Ich mache Hausaufgaben.;숙제;숙제입니다;숙제예요;숙제야;숙제였다: 숙제였어요;숙제를 해요.
+to take a class;einen Kurs besuchen;Ich besuche den Unterricht.;수업을 듣다;수업을 들었습니다;수업을 들어요;수업을 들어;수업을 들었다: 수업을 들었어요;수업을 들어요.
+to take a rest;sich ausruhen;Ich ruhe am Wochenende aus.;쉬다;쉬었습니다;쉬어요;쉬어;쉬었다: 쉬었어요;주말에 쉬어요.
+vacation;Urlaub;Ich gehe in den Urlaub.;휴가;휴가입니다;휴가예요;휴가야;휴가였다: 휴가였어요;휴가를 가요.
+rain;Regen;Es regnet.;비;비입니다;비가 와요;비가 와;비가 왔다: 비가 왔어요;비가 와요.
+weather;Wetter;Das Wetter ist gut.;날씨;날씨입니다;날씨가 좋아요;날씨가 좋아;날씨가 좋았다: 날씨가 좋았어요;날씨가 좋아요.
+mood;Stimmung;Ich fühle mich gut.;기분;기분입니다;기분이 좋아요;기분이 좋아;기분이 좋았다: 기분이 좋았어요;기분이 좋아요.
+to be busy;beschäftigt sein;Ich bin beschäftigt.;바쁘다;바빴습니다;바빠요;바빠;바빴다: 바빴어요;저는 바빠요.
+to have;haben;Ich habe eine Tasche.;가지다;가졌습니다;가지고 있어요;가지고 있어;가지고 있었다: 가지고 있었어요;가방을 가지고 있어요.
+every day;jeden Tag;Ich mache jeden Tag Sport.;매일;매일입니다;매일이에요;매일이야;매일이었다: 매일이었어요;매일 운동해요.
+nowadays;heutzutage;Ich bin in letzter Zeit beschäftigt.;요즘;요즘입니다;요즘이에요;요즘이야;요즘이었다: 요즘이었어요;요즘 바빠요.
+to travel;reisen;Ich reise.;여행하다;여행했습니다;여행해요;여행해;여행했다: 여행했어요;여행을 가요.
+to climb;klettern;Ich steige auf den Berg.;오르다;올랐습니다;올라요;올라;올랐다: 올랐어요;산에 오르요.
+to fish;fischen;Ich fische.;낚시하다;낚시했습니다;낚시해요;낚시해;낚시했다: 낚시했어요;낚시를 해요.
+to shop;einkaufen;Ich gehe einkaufen.;쇼핑하다;쇼핑합니다;쇼핑해요;쇼핑해;쇼핑했다: 쇼핑했어요;쇼핑을 해요.
+tea;Tee;Ich habe Tee in meinem Auto.;차;차입니다;차예요;차야;차였다: 차였어요;차에 차가 있습니다.
+to take a picture;ein Bild machen;Ich mache ein Foto.;사진을 찍다;사진을 찍습니다;사진을 찍어요;사진을 찍어;사진을 찍었다: 사진을 찍었어요;사진을 찍어요.
+to take a walk;einen Spaziergang machen;Ich gehe spazieren.;산책하다;산책합니다;산책해요;산책해;산책했다: 산책했어요;산책을 해요.
+now;jetzt;Ich lerne gerade.;지금;지금입니다;지금이에요;지금이야;지금이었다: 지금이었어요;지금 공부해요.
+to wear;tragen;Ich ziehe Kleidung an. / Zieh dich an.;입다;입습니다;입어요;입어;입었다: 입었어요;옷을 입어요.
+teeth;Zähne;Ich putze meine Zähne.;이;이입니다;이에요;이야;이었다: 이었어요;이를 닦아요.
+to wash the face;das Gesicht waschen;Ich wasche mein Gesicht.;얼굴을 씻다;얼굴을 씻습니다;얼굴을 씻어요;얼굴을 씻어;얼굴을 씻었다: 얼굴을 씻었어요;얼굴을 씻어요.
+to brush the teeth;die Zähne putzen;Ich putze meine Zähne.;이를 닦다;이를 닦습니다;이를 닦아요;이를 닦아;이를 닦았다: 이를 닦았어요;이를 닦아요.
+to clean;reinigen;Ich putze das Zimmer.;청소하다;청소합니다;청소해요;청소해;청소했다: 청소했어요;방을 청소해요.
+to ride;fahren;Ich fahre mit dem Bus.;타다;탑니다;타요;타;탔다: 탔어요;버스를 타요.
+to buy;kaufen;Ich kaufe ein Buch.;사다;삽니다;사요;사;샀다: 샀어요;책을 사요.
+to have a good time;eine gute Zeit haben;Ich habe Spaß mit Freunden.;즐겁게 지내다;즐겁게 지냈습니다;즐겁게 지내요;즐겁게 지내;즐겁게 지냈다: 즐겁게 지냈습니다 (formal expression);친구와 즐겁게 지내요.
+in;in;Ich gehe zur Schule.;에;에입니다;에요;에야;에였다: 에였어요;학교에 가요.
+on;auf;Das Buch liegt auf dem Schreibtisch.;위에;위에입니다;위에요;위에야;위에였다: 위에였어요;책이 책상 위에 있어요.
+under;unter;Das Buch liegt daruntr;아래에;아래에입니다;아래에요;아래에야;아래에였다: 아래에였어요;책이 아래에 있습니다.
+front;vorne;Das Haus liegt vor dem Park.;앞에;앞에입니다;앞에요;앞에야;앞에였다: 앞에였어요;집이 공원 뒤에 있어요.
+behind;hinter;Das Haus liegt hinter dem Park.;뒤에;뒤에입니다;뒤에요;뒤에야;뒤에였다: 뒤에였어요;학교에 가요.
+in;in;Ich gehe zur Schule.;에;에입니다;에요;에야;에였다: 에였어요;밖에 나가요.
+outside;draußen;Ich gehe nach draußen.;밖에;밖에입니다;밖에요;밖에야;밖에였다: 밖에였어요;친구가 나의 옆에 있어요.
+beside;neben;Mein Freund ist neben mir.;옆에;옆에입니다;옆에요;옆에야;옆에였다: 옆에였어요;집이 공원 앞에 있어요.
+between;zwischen;Das Buch liegt zwischen zwei Schreibtischen.;사이에;사이에입니다;사이에요;사이에야;사이에였다: 사이에였어요;책이 두 책상 사이에 있어요.
+door;Tür;Ich öffne die Tür.;문;문입니다;문이에요;문이야;문이었다: 문이었어요;문을 열어요.
+window;Fenster;Ich schließe das Fenster.;창문;창문입니다;창문이에요;창문이야;창문이었다: 창문이었어요;창문을 닫아요.
+eraser;Radiergummi;Ich lösche die Wörter mit einem Radiergummi.;지우개;지우개입니다;지우개예요;지우개야;지우개였다: 지우개였어요;지우개로 글씨를 지워요.
+map;Karte;Ich schaue auf die Karte.;지도;지도입니다;지도예요;지도야;지도였다: 지도였어요;지도를 보아요.
+calendar;Kalender;Ich überprüfe den Kalender.;달력;달력입니다;달력이에요;달력이야;달력이었다: 달력이었어요;달력을 확인해요.
+computer;Computer;Ich schalte den Computer ein.;컴퓨터;컴퓨터입니다;컴퓨터예요;컴퓨터야;컴퓨터였다: 컴퓨터였어요;컴퓨터를 켜요.
+notebook;Notizbuch;Ich benutze einen Laptop.;노트북;노트북입니다;노트북이에요;노트북이야;노트북이었다: 노트북이었어요;노트북을 사용해요.
+pencil;Bleistift;Ich zeichne ein Bild mit einem Bleistift.;연필;연필입니다;연필이에요;연필이야;연필이었다: 연필이었어요;연필로 그림을 그려요.
+ball point pen;Kugelschreiber;Ich schreibe mit einem Kugelschreiber.;볼펜;볼펜입니다;볼펜이에요;볼펜이야;볼펜이었다: 볼펜이었어요;볼펜으로 글을 써요.
+mobile phone;Handy;Ich telefoniere mit dem Handy.;휴대폰;휴대폰입니다;휴대폰이에요;휴대폰이야;휴대폰이었다: 휴대폰이었어요;휴대폰으로 전화해요.
+library;Bibliothek;Ich lese ein Buch in der Bibliothek.;도서관;도서관입니다;도서관이에요;도서관이야;도서관이었다: 도서관이었어요;도서관에서 책을 읽어요.
+restaurant;Restaurant;Ich esse zu Mittag im Restaurant.;식당;식당입니다;식당이에요;식당이야;식당이었다: 식당이었어요;식당에서 점심을 먹어요.
+bag;Tasche;Ich nehme die Tasche mit.;가방;가방입니다;가방이에요;가방이야;가방이었다: 가방이었어요;가방을 들고 가요.
+shoes;Schuhe;Ich ziehe die Schuhe an.;신발;신발입니다;신발이에요;신발이야;신발이었다: 신발이었어요;신발을 신어요.
+by the way;übrigens;Aber ich bin gerade beschäftigt.;그런데;그런데입니다;그런데에요;그런데야;그런데였다: 그런데였어요;그런데 지금 바빠요.
+dormitory;Wohnheim;Ich lebe im Wohnheim.;기숙사;기숙사입니다;기숙사예요;기숙사야;기숙사였다: 기숙사였어요;기숙사에서 살아요.
+convenient store;Convenience-Store;Ich kaufe Wasser im Convenience-Store.;편의점;편의점입니다;편의점이에요;편의점이야;편의점이었다: 편의점이었어요;편의점에서 물을 사요.
+playground;Spielplatz;Mein kleiner Bruder ist auf dem Spielplatz.;놀이터;놀이터입니다;놀이터예요;놀이터야;놀이터였다: 놀이터였어요;동생이 놀이터에 있어요.
+post office;Postamt;Das Postamt schliesst um 17 Uhr;우체국;우체국입니다;우체국이에요;우체국이야;우체국이었다: 우체국이었어요;우체국은 오후 5시에 문을 닫습니다.
+flower shop;Blumenladen;Der Blumenladen ist am Bahnhof;꽃집;꽃집입니다;꽃집이에요;꽃집이야;꽃집이었다: 꽃집이었어요;꽃집은 역에 있습니다
+to write;schreiben;Sie schreibt einen Brief.;쓰다;씁니다;써요;써;썼다 -> 썼어요 ;그녀는 편지를 씁니다.
+hand;Hand;Seine rechte Hand ist stärker.;손;손입니다;손이에요;손이야;손이었다 -> 손이었어요 ;오른손이 더 강하다.
+to wash;waschen;Waschen Sie Ihre Hände.;씻다;씻습니다;씻어요;씻어;씻었다 -> 씻었어요;손을 씻으세요.
+to erase;radieren/löschen;Sie radiert die Tafel aus.;지우다;지웁니다;지워요;지워;"지웠습니다; 지웠어요; 지웠어";그녀는 칠판을 지워요.
+to swim;schwimmen;Er schwimmt jeden Tag.;수영하다;수영합니다;수영해요;수영해;"수영했습니다; 수영했어요; 수영했어";그는 매일 수영해요.
+what;Was;Was ist das?;무엇;;무엇인가요?;;;무엇입니까?
