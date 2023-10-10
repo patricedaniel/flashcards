@@ -8,7 +8,7 @@ window.onload = function() {
     var infoButton = document.getElementById('info');
     var popup = document.getElementById('popup');
     var closePopupButton = document.getElementById('closePopup');
-    var data;
+    var data; // will be data parsed from the csv
 
 
     // read the data from the ;-separated csv using papa parse
@@ -75,5 +75,46 @@ window.onload = function() {
 
         var back = card.querySelector('.back');
         back.innerHTML = `<p class="infinitive">${flashcardData[3] || ''}</p><p>${flashcardData[4] || ''}</p><p>${flashcardData[5] || ''}</p><p>${flashcardData[6] || ''}</p><p>${flashcardData[7] || ''}</p><p>${flashcardData[8] || ''}</p>`;
+
+        ///////////////////////////////////////
+        /// display a picture from pexels /////
+        ///////////////////////////////////////
+
+        // get the search promt out of the current line in the csv flashcardData[0]
+        var word = flashcardData[0];
+
+        // Erstelle einen neuen XMLHttpRequest-Objekt
+        var xhr = new XMLHttpRequest();
+
+        // Öffne eine GET-Anfrage an die Pexels API mit dem Suchbegriff als Parameter
+        xhr.open("GET", "https://api.pexels.com/v1/search?query=" + word + "&per_page=1&page=1");
+
+        // Setze den Authorization-Header mit deinem API-Schlüssel
+        xhr.setRequestHeader("Authorization", config.pexels_api_key);
+
+        // Definiere eine Funktion, die ausgeführt wird, wenn die Anfrage abgeschlossen ist
+        xhr.onload = function() {
+            // Überprüfe, ob die Anfrage erfolgreich war
+            if (xhr.status == 200) {
+            // Parse die Antwort als JSON-Objekt
+            var response = JSON.parse(xhr.responseText);
+
+            // Erhalte die URL des ersten gefundenen Bildes
+            var imageUrl = response.photos[0].src.large; // original // large2x // large // medium // small // portrait // landscape // tiny
+            // see src description here: https://www.pexels.com/de-de/api/documentation/#photos-overview__response__src
+
+            // Setze das Bild als Hintergrundbild des div-Elements
+            var imageContainer = document.querySelector(".back");
+            imageContainer.style.backgroundImage = "url(" + imageUrl + ")";
+            } else {
+            // Zeige eine Fehlermeldung an, wenn die Anfrage fehlgeschlagen ist
+            console.error("An error occurred: " + xhr.statusText);
+            }
+        };
+
+        // Sende die Anfrage
+        xhr.send();
+        
     }
+
 }

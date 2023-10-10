@@ -42,6 +42,12 @@ body {
     background-color: lightsalmon;
     box-shadow: 4px 4px 0px 3px rgba(145, 31, 31, 0.9); /* none|h-offset v-offset blur spread color |inset|initial|inherit; */
     transform: rotateY(180deg);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire */
+}
+.card .back p {
+    background-color: rgba(255, 255, 255, 0.7);
 }
 .card.is-flipped {
     transform: rotateY(180deg);
